@@ -275,5 +275,6 @@ You can attach this model to one of the above units even if one Captain, Chapte
   </sharedSelectionEntries>
   <entryLinks>
     <entryLink import="true" name="Kor&apos;sarro Khan" hidden="false" type="selectionEntry" id="ed84-3c2a-5346-ca97" targetId="63f3-6aeb-c9ed-abfc"/>
+    <entryLink import="true" name="Bilguun the Horde Breaker" hidden="false" id="cbeb-3aa0-f433-91f6" type="selectionEntry" targetId="945b-1f7d-176d-5542"/>
   </entryLinks>
 </catalogue>

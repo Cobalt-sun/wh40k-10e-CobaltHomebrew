@@ -37422,6 +37422,10 @@ per turn.</characteristic>
                     <entryLink import="true" name="Twin Veteran Bolt Rifle" hidden="false" id="5bae-6380-dfa9-0142" type="selectionEntry" targetId="0e07-1059-b187-eb9f"/>
                     <entryLink import="true" name="Twin Melta Rifle" hidden="false" id="a58c-6316-e4b6-6c3c" type="selectionEntry" targetId="c819-9908-8b85-e1f4"/>
                   </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4eef-8ddd-4922-42d8-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4eef-8ddd-4922-42d8-max" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
@@ -37461,6 +37465,10 @@ per turn.</characteristic>
                     <entryLink import="true" name="Twin Veteran Bolt Rifle" hidden="false" id="456b-0400-66ac-ccd0" type="selectionEntry" targetId="0e07-1059-b187-eb9f"/>
                     <entryLink import="true" name="Twin Melta Rifle" hidden="false" id="5ddf-78c8-6039-2d16" type="selectionEntry" targetId="c819-9908-8b85-e1f4"/>
                   </entryLinks>
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1791-f438-8ee1-041c-min" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1791-f438-8ee1-041c-max" includeChildSelections="false"/>
+                  </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Melee weapons" id="7393-4586-5b82-dc0b" hidden="false">
                   <entryLinks>
@@ -37529,7 +37537,6 @@ per turn.</characteristic>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="6d2e-7f12-45f9-d2f5" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="4ce1-f6cd-fca6-778e" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="aa35-7cf1-3ee8-fd94" includeChildSelections="true"/>
-        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="afa2-5bfb-0b96-aa16" includeChildSelections="false"/>
       </constraints>
       <modifierGroups>
         <modifierGroup type="and">
