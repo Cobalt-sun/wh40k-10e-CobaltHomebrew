@@ -37422,10 +37422,6 @@ per turn.</characteristic>
                     <entryLink import="true" name="Twin Veteran Bolt Rifle" hidden="false" id="5bae-6380-dfa9-0142" type="selectionEntry" targetId="0e07-1059-b187-eb9f"/>
                     <entryLink import="true" name="Twin Melta Rifle" hidden="false" id="a58c-6316-e4b6-6c3c" type="selectionEntry" targetId="c819-9908-8b85-e1f4"/>
                   </entryLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef88-312e-11ce-3b02-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef88-312e-11ce-3b02-max" includeChildSelections="false"/>
-                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
@@ -37465,20 +37461,12 @@ per turn.</characteristic>
                     <entryLink import="true" name="Twin Veteran Bolt Rifle" hidden="false" id="456b-0400-66ac-ccd0" type="selectionEntry" targetId="0e07-1059-b187-eb9f"/>
                     <entryLink import="true" name="Twin Melta Rifle" hidden="false" id="5ddf-78c8-6039-2d16" type="selectionEntry" targetId="c819-9908-8b85-e1f4"/>
                   </entryLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="805a-4b84-b4e4-6494-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="805a-4b84-b4e4-6494-max" includeChildSelections="false"/>
-                  </constraints>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Melee weapons" id="7393-4586-5b82-dc0b" hidden="false">
                   <entryLinks>
                     <entryLink import="true" name="Chain Glaive" hidden="false" id="d979-e1a6-c1bc-9d0b" type="selectionEntry" targetId="b6d4-91c8-6f5d-09eb"/>
                     <entryLink import="true" name="Power Glaive" hidden="false" id="b069-6aaf-9565-5f74" type="selectionEntry" targetId="36f8-98ff-1137-b80f"/>
                   </entryLinks>
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="710d-1816-4dbc-8890-min" includeChildSelections="false"/>
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="710d-1816-4dbc-8890-max" includeChildSelections="false"/>
-                  </constraints>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
@@ -37541,6 +37529,7 @@ per turn.</characteristic>
         <constraint type="max" value="3" field="75bb-ded1-c86d-bdf0" scope="self" shared="true" id="6d2e-7f12-45f9-d2f5" includeChildSelections="false"/>
         <constraint type="max" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="4ce1-f6cd-fca6-778e" includeChildSelections="true"/>
         <constraint type="min" value="0" field="716d-91b7-d55a-1022" scope="self" shared="true" id="aa35-7cf1-3ee8-fd94" includeChildSelections="true"/>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="afa2-5bfb-0b96-aa16" includeChildSelections="false"/>
       </constraints>
       <modifierGroups>
         <modifierGroup type="and">
@@ -37978,10 +37967,30 @@ per turn.</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Wargear" id="5f62-fd38-6d3e-4f5b" hidden="false" sortIndex="4">
           <entryLinks>
-            <entryLink import="true" name="Forge Storm Bolter" hidden="false" id="af61-7579-81a4-ca09" type="selectionEntry" targetId="13bb-4225-3443-602d"/>
-            <entryLink import="true" name="Master crafted Silenced Bolt Pistol" hidden="false" id="103c-0c44-19e0-b190" type="selectionEntry" targetId="4aad-f87b-487b-8da5"/>
-            <entryLink import="true" name="Omnissian Battle Axe" hidden="false" id="9a9c-8bc2-24c9-a3e1" type="selectionEntry" targetId="82b7-dd44-5b24-11c8"/>
-            <entryLink import="true" name="Finley tuned Servo-arm" hidden="false" id="bb50-0a1b-c603-51cb" type="selectionEntry" targetId="3730-11b8-ef70-a761"/>
+            <entryLink import="true" name="Forge Storm Bolter" hidden="false" id="af61-7579-81a4-ca09" type="selectionEntry" targetId="13bb-4225-3443-602d">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="667a-3bf6-006e-68d8-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="667a-3bf6-006e-68d8-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Master crafted Silenced Bolt Pistol" hidden="false" id="103c-0c44-19e0-b190" type="selectionEntry" targetId="4aad-f87b-487b-8da5">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ffd0-f813-7647-5412-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ffd0-f813-7647-5412-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Omnissian Battle Axe" hidden="false" id="9a9c-8bc2-24c9-a3e1" type="selectionEntry" targetId="82b7-dd44-5b24-11c8">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1466-7449-e802-0fcd-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1466-7449-e802-0fcd-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Finley tuned Servo-arm" hidden="false" id="bb50-0a1b-c603-51cb" type="selectionEntry" targetId="3730-11b8-ef70-a761">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2351-c723-87f5-b9e8-min" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2351-c723-87f5-b9e8-max" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
